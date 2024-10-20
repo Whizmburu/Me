@@ -1,0 +1,33 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.hero {
+    background-image: url('https://source.unsplash.com/1600x900/?tech,cloud');
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}
